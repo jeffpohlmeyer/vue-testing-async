@@ -10,7 +10,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <Suspense>
-        <HelloWorld msg="You did it!" />
+        <HelloWorld />
         <template #fallback>Loading...</template>
       </Suspense>
     </div>
